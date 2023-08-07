@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Retirement Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo">Retirement<br>Calculator</div>
+        </header>
+        <main>
+            <section id="form-section">
+                <hr>
+                <div class="form">
+                    <fieldset>
+                        <label for="currentAge">How old are you currently?</label>
+                        <input id="currentAge" name="currentAge" type="number" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="retirementAge">How old do you want to be when you retire?</label>
+                        <input id="retirementAge" name="retirementAge" type="number" required>
+                        <span>*Average is between 62-68.</span>
+                    </fieldset>
+                    <fieldset>
+                        <label for="neededIncome">How much are your monthly needs?</label>
+                        <input id="neededIncome" name="neededIncome" type="number" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="wantedIncome">How much extra whould you like to make per month? (after needs)</label>
+                        <input id="wantedIncome" name="wantedIncome" type="number" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="endAge">What's your life expectancy?</label>
+                        <input id="endAge" name="endAge" type="number" required>
+                        <span>*Average is 85.</span>
+                    </fieldset>
+                    <fieldset>
+                        <button id="submit">Submit</button>
+                        <div id="required"></div>
+                    </fieldset>
+                </div>
+                <hr>
+            </section>
+            <section id="results">
+                
+            </section>
+        </main>
+        <footer>
+            retirementCalc by Doug Yates
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

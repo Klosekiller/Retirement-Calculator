@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    position: sticky;
+    background-color: white;
+}
+
+#logo {
+    text-align: center;
+    position: sticky;
+}
+
+section {
+    padding: 0.8rem;
+}
+
+#form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+label, span {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+input {
+    height: 1.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+}
+
+span, #required {
+    font-style: italic;
+}
+
+#required {
+    color: red;
+    align-self: flex-end;
+    font-weight: lighter;
+    text-align: end;
+}
+
+button {
+    height: 2rem;
+    font-size: 1rem;
+}
+
+p {
+    margin: 1rem 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.savings {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 3rem;
+    font-style: italic;
+    color: gray;
+}
+
+@media only screen and (min-width: 500px) {
+    #form {
+        max-width: 500px;
+    }
+}
